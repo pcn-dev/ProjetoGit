@@ -1,15 +1,27 @@
-# Meus exercícios em PostgreSQL
+# Meus Exercícios em PostgreSQL
 
-## Aqui vou mostrar tudo que estou praticando em SQL!
+Aqui você encontrará uma coletânea de exercícios de SQL que tenho praticado na plataforma **BeeCrowd**. Para cada solução, adicionei um comentário no código indicando o nível de dificuldade do exercício, conforme especificado na plataforma.
 
-Pratico com exercícios tirados da plataforma BeeCrowd, onde pego e adiciono, um comentário em cada cósigo, o nivel de dificuldade que é falado no exercício.
+---
 
-Endereço dos Clientes: Fiz este exercício para selecionar o nome e a cidade de todos os clientes que moram em Porto Alegre. Aprendi a usar a cláusula WHERE para filtrar dados de uma forma bem específica.
+### **Exercícios Resolvidos**
 
-Maior e Menor Preço: Usei as funções MAX() e MIN() para encontrar o preço mais alto e o mais baixo de todos os meus produtos. Foi ótimo para entender como resumir informações de uma tabela.
+* **Endereço dos Clientes**
+    * **Descrição:** Seleciona o nome e a cidade de todos os clientes que residem em Porto Alegre.
+    * **Conceito principal:** Uso da cláusula `WHERE` para filtrar dados de forma precisa.
 
-Select Básico: Um dos meus primeiros exercícios! Ele apenas seleciona o nome dos clientes do estado do Rio Grande do Sul (RS). É um comando simples, mas essencial para qualquer consulta em SQL.
+* **Maior e Menor Preço**
+    * **Descrição:** Encontra o preço mais alto e o mais baixo entre todos os produtos.
+    * **Conceito principal:** Uso das funções de agregação `MAX()` e `MIN()` para resumir informações de uma tabela.
 
-Menor que 10 Maior que 100: Neste, eu selecionei o ID e o nome de produtos que custam menos de 10 ou mais de 100. Foi um bom treino para usar o operador OR e combinar diferentes condições.
+* **Select Básico**
+    * **Descrição:** Um dos exercícios iniciais, que seleciona apenas o nome dos clientes que moram no estado do Rio Grande do Sul (RS).
+    * **Conceito principal:** Demonstração do comando `SELECT` mais fundamental.
 
-Cidades em Ordem Alfabética: Aqui, eu simplesmente ordenei as cidades dos fornecedores em ordem alfabética. Com a cláusula ORDER BY, vi como é fácil organizar os resultados de uma consulta.
+* **Menor que 10 Maior que 100**
+    * **Descrição:** Seleciona o ID e o nome de produtos cujo preço é menor que 10 ou maior que 100.
+    * **Conceito principal:** Combinação de múltiplas condições usando o operador `OR`.
+
+* **Cidades em Ordem Alfabética**
+    * **Descrição:** Ordena as cidades dos fornecedores em ordem alfabética.
+    * **Conceito principal:** Aplicação da cláusula `ORDER BY` para organizar o conjunto de resultados.
